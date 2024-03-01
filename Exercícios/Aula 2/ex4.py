@@ -13,10 +13,10 @@ M3 = float(input("Informe sua terceira nota: "))
 print(f"A nota 1 foi {M1}, a nota 2 foi {M2} e a nota 3 foi {M3}.")
 
 media = (M1 + M2 + M3) / 3
-print(f"Média: {media}")
-if (0.0 < media < 4.0):
+print(f"Média: {round(media, 1)}")
+if (0.0 < media <= 4.0):
     print("O aluno está reprovado.")
-if (4.1 < media < 6.0):
+if (4.1 <= media <= 6.0):
     print("O aluno pegou exame.")
     exame = float(input("Informa a nota do exame: "))
     print(exame)
@@ -24,5 +24,5 @@ if (4.1 < media < 6.0):
         print("Aprovado no exame.")
     else:
         print("Reprovado no exame.")
-if (media >= 6.0):
+if (media > 6.0):
     print("O aluno está aprovado.")

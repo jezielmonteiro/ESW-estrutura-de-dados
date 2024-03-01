@@ -11,5 +11,5 @@ litros = distancia / 12
 
 print(f"Velocidade: {velocidade} Km/h")
 print(f"Tempo Gasto: {tempo} horas")
-print(f"Distância Percorrida: {distancia}")
-print(f"Quantidade de Combustível: {round(litros, 1)}")
+print(f"Distância Percorrida: {distancia} Km")
+print(f"Quantidade de Combustível: {round(litros, 1)} litros")

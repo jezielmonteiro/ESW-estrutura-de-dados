@@ -7,22 +7,22 @@
 # - Se o aluno pegou exame, deve ser lida a nota do exame. Se a nota do exame for maior do que 6.0, está aprovado, senão; está repro
 #vado
 
-M1 = float(input("Informe sua primeira nota: "))
+M1 = float(input("\nInforme sua primeira nota: "))
 M2 = float(input("Informe sua segunda nota: "))
 M3 = float(input("Informe sua terceira nota: "))
-print(f"A nota 1 foi {M1}, a nota 2 foi {M2} e a nota 3 foi {M3}.")
+print(f"\nA nota 1 foi {M1}, a nota 2 foi {M2} e a nota 3 foi {M3}.")
 
 media = (M1 + M2 + M3) / 3
-print(f"Média: {round(media, 1)}")
+print(f"\nMédia: {round(media, 1)}")
 if (0.0 < media <= 4.0):
-    print("O aluno está reprovado.")
+    print("\nAluno reprovado.\n")
 if (4.1 <= media <= 6.0):
-    print("O aluno pegou exame.")
-    exame = float(input("Informa a nota do exame: "))
-    print(exame)
+    print("\nAluno pegou exame.")
+    exame = float(input("\nInforme a nota do exame: "))
+    print(f"\n{exame}")
     if exame > 6.0:
-        print("Aprovado no exame.")
+        print("\nAprovado no exame.\n")
     else:
-        print("Reprovado no exame.")
+        print("\nReprovado no exame.\n")
 if (media > 6.0):
-    print("O aluno está aprovado.")
+    print("\nAluno aprovado.\n")

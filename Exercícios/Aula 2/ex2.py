@@ -4,12 +4,12 @@
 #combustível utilizada na viagem, com a fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade mé
 #dia, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
 
-tempo = float(input("Digite o tempo gasto na viagem: "))
-velocidade = float(input("Informe a velocidade média durante a viagem: "))
+tempo = float(input("\nInforme o tempo gasto na viagem: "))
+velocidade = float(input("\nInforme a velocidade média durante a viagem: "))
 distancia = tempo * velocidade
 litros = distancia / 12
 
-print(f"Velocidade: {velocidade} Km/h")
+print(f"\nVelocidade: {velocidade} Km/h")
 print(f"Tempo Gasto: {tempo} horas")
 print(f"Distância Percorrida: {distancia} Km")
-print(f"Quantidade de Combustível: {round(litros, 1)} litros")
+print(f"Quantidade de Combustível: {round(litros, 1)} litros\n")

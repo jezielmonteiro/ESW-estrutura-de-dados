@@ -1,5 +1,5 @@
-#Calcular a média de um aluno que cursou a disciplina de Programação I, a partir da leitura das notas M1, M2 e M3; passando por um
-#cálculo da média aritmética. Após a média calculada, devemos anunciar se o aluno foi aprovado, reprovado ou pegou exame.
+# Calcular a média de um aluno que cursou a disciplina de Programação I, a partir da leitura das notas M1, M2 e M3; passando por um
+# cálculo da média aritmética. Após a média calculada, devemos anunciar se o aluno foi aprovado, reprovado ou pegou exame.
 
 # - Se a média estiver entre 0.0 e 4.0, o aluno está reprovado
 # - Se a média estiver entre 4.1 e 6.0, o aluno pegou exame
